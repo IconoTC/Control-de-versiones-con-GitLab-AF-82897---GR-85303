@@ -58,6 +58,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 - [descanso] 11:20-11:40
 
 - Primeros pasos con Git (2)
+
   - Anatomía de un repositorio git: working directory, staging area (index o cache) y repositorio (.git)
   - Estados de un archivo: untracked (U), tracked (modified (M), staged (A), committed)
   - add/commit/reset y status/log/show
@@ -88,9 +89,10 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Sintaxis básica
   - Vista previa en VSC / GitHub / GitLab
 
-<!-- ### Día 2 (Miércoles 12 Noviembre 2025)
+### Día 2 (Miércoles 12 Noviembre 2025)
 
 - Git internals
+
   - Estructura de un repositorio git: .git
   - Objetos git: blobs, trees, commits (y tags)
     - Creación y lectura de objetos
@@ -98,6 +100,9 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Modificación del árbol de objetos en commits sucesivos
   - Referencias: heads, ramas (tags y remotes)
   - Taller: creación de un repositorio git "a mano"
+
+- [descanso] 11:10-11:30
+
 - Herramientas para preparar un buen commit en cualquier situación
 
   - Operaciones en la Staging Area (Index)
@@ -106,8 +111,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Eliminar ficheros: git rm
   - Cambiar nombre de ficheros: git mv
   - git blame
-
-- [descanso] 11:20-11:40
 
 - Reescribiendo la historia
 
@@ -129,7 +132,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
   - git clean
   - git revert
-  - git bisect -->
 
 <!-- ### Día 3 (Jueves 13 Noviembre 2025)
 
