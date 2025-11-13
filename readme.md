@@ -98,7 +98,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Creación y lectura de objetos
     - Creación del árbol de objetos en un primer commit
     - Modificación del árbol de objetos en commits sucesivos
-  - Referencias: heads, ramas (tags y remotes)
+  - Referencias: head, ramas (tags y remotes)
   - Taller: creación de un repositorio git "a mano"
 
 - [descanso] 11:10-11:30
@@ -108,6 +108,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Operaciones en la Staging Area (Index)
     - Añadir ficheros
     - Eliminar de la Staging Area (Index)
+    - Add partial: git add -p
   - Eliminar ficheros: git rm
   - Cambiar nombre de ficheros: git mv
   - git blame
@@ -123,7 +124,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
     - git checkout y reset a nivel de archivo (restore)
 
-  - rebase interactivo (comentar por encima)
+  - rebase interactivo (git rebase -i)
     - edit: modificando un commit
     - squash y fixup: fusionando commits
     - drop: eliminando un commit
@@ -133,7 +134,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - git clean
   - git revert
 
-<!-- ### Día 3 (Jueves 13 Noviembre 2025)
+### Día 3 (Jueves 13 Noviembre 2025)
 
 - Trabajando en paralelo
 
@@ -151,13 +152,13 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - git rebase
 
   - git stash
-  - Resolución de conflictos
-  - git cherry-pick
 
-- [descanso] 11:20-11:40
+- [descanso] 11:15-11:40
 
 - Trabajando en paralelo (2)
 
+  - Resolución de conflictos
+  - git cherry-pick
   - (Patches: Creación y aplicación)
   - Etiquetas (tags)
     - Tags anotadas y tags ligeros
@@ -168,26 +169,27 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Repositorios "bare"
   - Clonar repositorios: git clone
   - git remote
-  - git push
-    - push tags
-  - git pull
-
-    - git fetch
-    - git merge / git rebase
-    - Conflictos
-
   - Ramas remotas
     - Seguimiento de ramas remotas (tracking branches)
     - Crear ramas locales a partir de ramas remotas: fetch + checkout / switch -c
     - Subir ramas locales a ramas remotas: -u
     - Eliminar ramas remotas
+  - git push
+    - push tags
+  - git pull
+    - git fetch
+    - git merge / git rebase
+
+<!--
+
+### Día 4 (Viernes 14 Noviembre 2025)
+
+- Repositorios remotos (continuación)
+
+  - Conflictos
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Flujo de trabajo típico
-    - Revisión de código -->
-
-<!-- - ### Día 4 (Viernes 14 Noviembre 2025)
-
-  - Pull requests (GitHub) / Merge requests (GitLab)
+    - Revisión de código
     - Resolución de conflictos en remoto
     - Buenas prácticas:
       - Actualizar la rama con la rama main antes de hacer el merge
@@ -229,4 +231,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Variables
   - Despliegues: environments
 - Despliegues en GitLab
-  - Releases -->
+  - Releases
+
+-->
