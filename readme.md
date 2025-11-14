@@ -180,8 +180,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - git fetch
     - git merge / git rebase
 
-<!--
-
 ### Día 4 (Viernes 14 Noviembre 2025)
 
 - Repositorios remotos (continuación)
@@ -196,41 +194,43 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
       - Resolución de conflictos en local
       - Eliminar la rama una vez hecho el merge
 
+- GitLab
+
+  - Hosting de Repositorios
+    - repositorios públicos y privados; ramas y remotos: push y pull (v.s.)
+  - Colaboración
+    - merge requests: revisión de código y comentarios (v.s.)
+    - MR desde ramas y
+    - Proyectos
+      - issues y milestones
+
 - Flujos de trabajo (workflows)
 
   - Citar: Git Flow / GitLab Flow
   - GitHub Flow
     - Ship-Show-Ask
 
-- Buenas prácticas (citar)
-
-- GitLab
-  - Hosting de Repositorios
-    - repositorios públicos y privados; ramas y remotos: push y pull (v.s.)
-    - forks
-  - Colaboración
-    - merge requests: revisión de código y comentarios (v.s.)
-    - MR desde ramas y forks
-    - Proyectos
-      - issues y milestones
-      - To-Do lists
-    - Wikis
-  - GitLab CLI
-    - Instalación y configuración
-    - Comandos básicos
-  - GitLab Pages
-    - Configuración y uso
-    - Práctica: publicar nuestro repositorio demo
-
 - [descanso] 11:20-11:40
 
+- Buenas prácticas
+
+- GitLab. Colaboración
+  - forks: MR desde forks
+    - To-Do lists
+  - Wikis
+- GitLab CLI (nombrar)
+
 - Integración continua / Entrega continua (CI/CD)
+
   - Introducción a CI/CD
   - Configuración de un pipeline: stages y jobs
   - Artefactos
   - Variables
   - Despliegues: environments
-- Despliegues en GitLab
-  - Releases
 
--->
+- GitLab Pages (nombrar)
+
+  - Configuración y uso
+  - Práctica: publicar nuestro repositorio demo
+
+- Git hooks
